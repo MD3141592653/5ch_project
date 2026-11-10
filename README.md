@@ -1,6 +1,6 @@
 ## 構成
 
-```json
+```
 5ch_project/
 │
 ├── .venv/
@@ -40,7 +40,7 @@
 
 ## 処理の流れ
 
-```json
+```
 kako.5ch.io/poverty?page=N
             ↓
     スレHTML一括取得
@@ -58,7 +58,7 @@ kako.5ch.io/poverty?page=N
 
 Linuxコマンドで取得（量が多いので24101～24443とページ指定）
 
-```json
+```bash
 for page in $(seq 24101 24443)
 do
     echo "page=${page}"
