@@ -56,7 +56,7 @@ kako.5ch.io/poverty?page=N
 
 ## html取得
 
-（量が多いので24101～24443とページ指定）
+Linuxコマンドで取得（量が多いので24101～24443とページ指定）
 
 ```json
 for page in $(seq 24101 24443)
